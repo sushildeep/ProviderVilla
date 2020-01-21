@@ -6,7 +6,15 @@
   <artifactId>PV_Automation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.3.0.603</version>
+            </plugin>
+        </plugins>
+    </build>
   <name>PV_Automation</name>
   <url>http://maven.apache.org</url>
 
